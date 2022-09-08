@@ -7,22 +7,55 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h1{
     font-size: 3rem;
+    font-family: 'Bodoni_Moda', Bodoni;
+    text-shadow: 2px 2px 2px #aaa;
+    padding-bottom: 6%;
+}
+
+h1:hover{
+    transform: scale(1.01);
+    color:darkslategrey;
+    
 }
 
 h2{
     font-size:2rem;
+    color:blue;
+
+}
+
+h2:hover{
+    transform: scale(1.01);
+    transform: rotate(2deg);
+    color:goldenrod;
+}
+
+article > h1{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 header > img{
     display:block;
     margin-left: auto;
     margin-right:auto;
+}
+
+nav{
+    padding:2%;
+    margin: 5%;
+    border-color: antiquewhite;
+    border-radius: 1rem;
+    border-style: double;
+    border-width: 0.5rem;
 }
 
 nav ul{
@@ -32,12 +65,30 @@ nav ul{
 
 nav li{
     display:inline-block;
+    padding-left:4%;
+    padding-right:4%;
+    font-size: 1.3rem;
+
+}
+
+nav li:hover{
+    transform:scale(1.05);
+    color: gray;
+    text-decoration:underline;
 }
 
 section{
     display: flex;
+    padding: 2%
 }
 
 article{
     flex: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer > div{
+    font-size: small;
+    font-style: italic;
 }
